@@ -1,0 +1,15 @@
+
+Ohjelma toteuttaa 'Polku'-pelin jossa on tarkoituksena siirtää
+pelinappulta puolelta toiselle mahdollismman nopeasti ja pienellä määrällä siirtoja.
+Pelin logiikka toimii pohjakoodin avulla ja sitä ei ole muutettu.
+Siirrettävät nappulat on toteutettu Pushbuttoneina ja ne ovat yhdistetty
+koordinaatisoon mapilla. Koordinaateilla ajetaan pohjakoodista löytyvää move metodia.
+
+Nappulaa ei voi siirtää jos 'tiellä' on toine värillinen nappula. Nappulat siiryvät siis
+vain pysty tai vaakasuunnissa. Pelin voittaa, kun värit ovat vaihtaneet paikkaa alkutilanteesta.
+Jos nappulalla on tilaa, voi se yhdellä siirrolla siirtyä rajattomasti. Esim. laudan päädystä 
+toiseen.
+
+Lisäominaisuudet:
+	-Pause-nappi. Pysäyttää pelin ajan sekä muuttaa pelinappulat pois käytöstä.
+	 Muuttuu resume-napiksi jolla peliä voidaan taas jatkaa.
